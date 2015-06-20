@@ -1,0 +1,31 @@
+{
+  "name": "dual-transfer",
+  "version": "0.0.0",
+  "description": "Transfer message context from one dual-protocol domain to another.",
+  "private": false,
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "ci-test": "istanbul cover _mocha -- -R tap \"./test/*.js\" > test.tap && istanbul report clover"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/plediii/dual-transfer.git"
+  },
+  "keywords": [
+    "dual",
+    "transfer"
+  ],
+  "author": "Paul J. Ledbetter III",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plediii/dual-transfer/issues"
+  },
+  "devDependencies": {
+    "dual-protocol": "^0.2.1",
+    "istanbul": "^0.3.14",
+    "lodash": "^3.9.3",
+    "mocha": "^1.21.4",
+    "tape": "^4.0.0"
+  }
+}
